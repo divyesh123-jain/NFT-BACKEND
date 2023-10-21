@@ -7,7 +7,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 module.exports = {
   solidity: "0.8.20",
   networks: {
-    mumbai: {
+    fuji: {
       url: process.env.QUICKNODE_HTTP_URL,
       accounts: [process.env.PRIVATE_KEY],
     },
